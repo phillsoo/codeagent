@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-07-14T08:45:40.368959+00:00",
+  "source": "${HOME}/.hermes",
+  "profiles": [
+    "default",
+    "execution",
+    "it",
+    "planning",
+    "quality",
+    "research"
+  ],
+  "skill_files": 32,
+  "cron_jobs": 3,
+  "repository_policy": "secret-free reproducible configuration snapshot",
+  "excluded": [
+    "credentials and auth files",
+    "environment secret files",
+    "sessions and memories",
+    "logs, caches, databases and process state",
+    "astra-organization operational artifacts",
+    "Hermes source checkout and virtual environment"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "astra-organization",
+  "name": "Nexus 조직 업무",
+  "description": "Nexus의 메인 수행 비서 Astra와 기획·리서치·실행·IT·품질/리스크 매니저의 공용 업무·결과 저장소",
+  "icon": "🏢",
+  "color": "#4f46e5",
+  "default_workdir": "${HOME}/astra-organization",
+  "created_at": 1783436614,
+  "archived": false
+}

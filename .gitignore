@@ -1,0 +1,31 @@
+# Secrets and authentication
+.env
+.env.*
+**/.env
+**/.env.*
+**/auth.json
+**/auth.lock
+**/*credential*
+**/*token*
+**/*secret*
+
+# Runtime/private state
+**/*.db
+**/*.db-*
+**/*.sqlite*
+**/*.lock
+**/logs/
+**/sessions/
+**/cache/
+**/output/
+**/processes.json
+**/gateway_state.json
+**/channel_directory.json
+QUALITY_REVIEW.md
+
+# Build/editor noise
+**/__pycache__/
+**/*.py[cod]
+.venv/
+venv/
+.DS_Store
