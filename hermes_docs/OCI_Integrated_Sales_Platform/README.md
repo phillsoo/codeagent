@@ -11,6 +11,8 @@ CRM, OCI 견적, Consumption, Weekly Report, Demo Gallery를 하나의 FastAPI A
 - 테스트용 고객 데이터나 비밀정보 미포함
 - 실제 OCI 서버/DB 변경 미실행
 
+> **중요:** Oracle runtime adapter는 v0.1.0에 포함되지 않음. 현재 wheel은 SQLite preview용이며, `ADBHERMES` 운영 배포는 Oracle repository adapter 구현·DB credential·실제 migration/UAT 검증 후에만 승인할 수 있습니다. DDL과 운영 스크립트는 다음 단계의 배포 기반입니다.
+
 ## 로컬 실행
 
 ```bash
